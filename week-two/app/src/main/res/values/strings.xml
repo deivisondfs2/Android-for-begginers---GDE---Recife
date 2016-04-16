@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">App inicial</string>
+    <string name="text_quantity">Quantity</string>
+    <string name="label_unitary">Value Unitary</string>
+    <string name="price">Price</string>
+    <string name="button_result">Calc</string>
+    <string name="result_final_price">Total: %1$s\nThanks You</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App inicial</string>
+    <string name="text_quantity">Quantidade</string>
+    <string name="label_unitary">Valor Unitário</string>
+    <string name="price">Preço</string>
+    <string name="button_result">Calc</string>
+    <string name="result_final_price">Total: %1$s\nObrigado!!!</string>
+</resources>
