@@ -5,7 +5,8 @@
 ### List the week: 
 
 * [Week tow] (https://github.com/deivisondfs2/Android-for-begginers---GDE---Recife/tree/master/week-two)
-
+* [Week Three] (https://github.com/deivisondfs2/Android-for-begginers---GDE---Recife/tree/master/week-three)
+*  - [Week Three using Butter Knifer] (https://github.com/deivisondfs2/Android-for-begginers---GDE---Recife/tree/master/week-three-butterknife)
       
       
 
