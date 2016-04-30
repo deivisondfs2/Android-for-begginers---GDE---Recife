@@ -9,9 +9,6 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.appindexing.AppIndex;
-import com.google.android.gms.common.api.GoogleApiClient;
-
 import br.com.deivisondfs2.android.domain.Team;
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -41,11 +38,7 @@ public class HomeActivity extends AppCompatActivity {
 
     private Team teamA = new Team(1, "Team 1", 0);
     private Team teamB = new Team(2, "Team 2", 0);
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-    private GoogleApiClient client;
+
 
 
     @Override
@@ -53,12 +46,9 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         ButterKnife.bind(this);
-
         teamAname.setText(teamA.getName());
         teamBname.setText(teamB.getName());
-        // ATTENTION: This was auto-generated to implement the App Indexing API.
-        // See https://g.co/AppIndexing/AndroidStudio for more information.
-        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+
     }
 
     /*
@@ -146,7 +136,7 @@ public class HomeActivity extends AppCompatActivity {
                 intent.putExtra("team", teamB);
             }
 
-            if (teamA.getPoints() == 0 || teamB.getPoints() == 0){
+            if (teamA.getPoints() == 0 && teamB.getPoints() == 0){
                 throw new RuntimeException();
             }
 
