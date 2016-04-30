@@ -126,14 +126,34 @@
 
     </LinearLayout>
 
-    <Button
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="@dimen/margin_botton_reset"
-        android:id="@+id/resetGame"
-        android:text="Reset" />
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_botton_reset"
+            android:id="@+id/resetGame"
+            android:text="Reset" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_botton_reset"
+            android:id="@+id/resultGame"
+            android:text="Result" />
+
+    </LinearLayout>
+
+
+
+
 
 
 </RelativeLayout>
